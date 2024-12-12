@@ -1,0 +1,35 @@
+{
+  "autoRefresh": {
+    "enabled": false
+  },
+  "baseQueries": [],
+  "tiles": [],
+  "dataSources": [],
+  "pages": [
+    {
+      "name": "Page 1",
+      "id": "9779f90d-1b8e-4ec2-a2bf-5daafb47ec46"
+    }
+  ],
+  "parameters": [
+    {
+      "kind": "duration",
+      "id": "4b511e0b-0c24-436d-bb5f-668b4deb1256",
+      "displayName": "Time range",
+      "description": "",
+      "beginVariableName": "_startTime",
+      "endVariableName": "_endTime",
+      "defaultValue": {
+        "kind": "dynamic",
+        "count": 1,
+        "unit": "hours"
+      },
+      "showOnPages": {
+        "kind": "all"
+      }
+    }
+  ],
+  "queries": [],
+  "schema_version": "55",
+  "title": "new RTA"
+}
